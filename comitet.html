@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/normalize.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./css/base.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/blocks/header.css" />
+    <link rel="stylesheet" href="./css/blocks/body.css" />
+    <link rel="stylesheet" href="./css/blocks/footer.css" />
+    <title>Practic</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div>
+              <a class="header__logo-wrapper" href="/index.html"
+                >Комитет финансов</a
+              >
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Переключатель навигации"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <ul class="header__spisok">
+                  <li class="header__li">
+                    <a href="/index.html" class="btn header__ssilka">Главная</a>
+                  </li>
+                  <li class="header__li">
+                    <a href="/comitet.html" class="btn header__ssilka"
+                      >О комитете</a
+                    >
+                  </li>
+                  <li class="header__li">
+                    <a href="/deyat.html" class="btn header__ssilka"
+                      >Деятельность</a
+                    >
+                  </li>
+                  <li class="header__li">
+                    <a href="/doc.html" class="btn header__ssilka">Документы</a>
+                  </li>
+                  <li class="header__li">
+                    <a href="/contact.html" class="btn header__ssilka"
+                      >Контакты</a
+                    >
+                  </li>
+                </ul>
+                <!-- <div href="#" class="btn btn-primary knopka pad">
+                  Связаться с нами
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <nav class="pad" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" aria-current="page">
+          <a href="index.html">Главная</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">О комитете</li>
+      </ol>
+    </nav>
+    <!-- zdec -->
+    <div class="accordion pad min" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            О комитете
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            Kомитет финансов администрации муниципального образования
+            «Выборгский район» Ленинградской области является отраслевым органом
+            администрации муниципального образования «Выборгский район»
+            Ленинградской области и обладает статусом финансового органа,
+            обеспечивающего формирование и реализацию единой бюджетно-финансовой
+            политики муниципального образования «Выборгский район» Ленинградской
+            области, составление и организацию исполнения бюджета муниципального
+            образования «Выборгский район» Ленинградской области.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Структура
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <img src="/images/struktura_0.jpg" alt="" class="img" />
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Функции и полномочия комитета
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Комитет финансов осуществляет свою деятельность во взаимодействии
+              с федеральными органами исполнительной власти, в том числе
+              территориальными, органами государственной власти Ленинградской
+              области, иными государственными органами, органами местного
+              самоуправления районов и поселений Ленинградской области,
+              коммерческими и некоммерческими организациями, а также с
+              гражданами.
+            </p>
+            <p>
+              Комитет финансов учреждается решением Совета депутатов
+              муниципального образования «Выборгский район» Ленинградской
+              области, но функции учредителя выполняет администрация
+              муниципального образования «Выборгский район» Ленинградской
+              области, имеет самостоятельный баланс, расчетные счета и лицевые
+              счета в Управлении Федерального казначейства по Ленинградской
+              области, бланк с изображением герба муниципального образования
+              «Выборгский район» Ленинградской области, круглую печать и другие
+              необходимые штампы со своим наименованием.
+            </p>
+            <p>Из положения:</p>
+            <ul>
+              <li>1. составление проекта местного бюджета;</li>
+              <li>2. организация казначейского исполнения местного бюджета;</li>
+              <li>
+                3. исполнительно-распорядительные функции по управлению
+                финансами МО «Выборгский район»;
+              </li>
+              <li>
+                4. координация деятельности в сфере бюджетно-правовых отношений
+                органов местного самоуправления МО «Выборгский район»;
+              </li>
+              <li>
+                5. контроль в сфере закупок для муниципальных нужд в
+                соответствии с Федеральным законом от 5 апреля 2013 года № 44-ФЗ
+                «О контрактной системе в сфере закупок товаров, работ, услуг для
+                обеспечения государственных и муниципальных нужд»;
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="col-12">
+        Комитет финансов администрации муниципального образования «Выборгский
+        район» Ленинградской области
+      </p>
+      <p>© 2021-2022 Разработано МКУ "ГИЦ"</p>
+    </footer>
+  </body>
+</html>
