@@ -6,17 +6,9 @@ body {
   color: black;
   font-size: 20px;
   font-weight: 400;
-  border-radius: 4px 4px 0px 0px;
 }
 .pad {
   margin: 15px;
-}
-.img {
-  width: 90%;
-}
-.log {
-  width: 10%;
-  height: 10%;
 }
 .cartochki {
   display: flex;
@@ -24,13 +16,11 @@ body {
   min-height: 780px;
 }
 .cartochkii {
-  display: flex;
-  justify-content: center;
-  min-height: 560px;
+  min-height: 520px;
 }
 .knopka {
   margin-top: -3%;
-  max-height: 25px;
+  height: 25px;
   width: 50px;
   margin-left: 49%;
   background: #ffc814;
