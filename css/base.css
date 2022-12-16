@@ -41,21 +41,6 @@ body {
   transform: translateY(2px);
   box-shadow: none;
 }
-.flag {
-  width: 165px;
-  height: 55px;
-  background: #ffffff;
-  border-radius: 4px 4px 0px 0px;
-  margin-right: 70px;
-  border: 0ch;
-  transition: 1s;
-}
-.flag:focus {
-  background: #ffc814;
-}
-.flag:hover {
-  transition: 0.5s;
-}
 .container {
   max-width: 720px;
   min-height: 600px;
