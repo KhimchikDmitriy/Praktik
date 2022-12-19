@@ -8,6 +8,11 @@ body {
   font-weight: 400;
   min-width: 560px;
 }
+.logo {
+  width: 50px;
+  height: 47px;
+  border-radius: 100%;
+}
 .pad {
   margin: 15px;
 }
