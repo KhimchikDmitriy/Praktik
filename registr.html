@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link href="./css/reset.css" rel="stylesheet" />
     <link href="./css/normalize.css" rel="stylesheet" />
     <link
@@ -26,12 +30,21 @@
   <body>
     <header class="header">
       <div class="col-12">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-sm">
           <div class="container-fluid">
             <div>
-              <a class="header__logo-wrapper" href="./index.html"
-                >Комитет финансов</a
-              >
+              <ul class="header__spisok">
+                <li class="header__li">
+                  <a
+                    href="./index.html"
+                    class="header__ssilka logo header__logo-wrapper"
+                    ><img
+                      class="logo"
+                      src="./images/vbg.jpg"
+                      alt="Комитет финансов"
+                  /></a>
+                </li>
+              </ul>
             </div>
             <button
               class="navbar-toggler"
@@ -167,8 +180,14 @@
           </button>
         </div>
       </div>
+      <ul class="header__spisok">
+        <li class="header__li">
+          <a style="color: black" class="header__ssilka" href="./inner.html">
+            Уже зарегестрированы?</a
+          >
+        </li>
+      </ul>
     </form>
-
     <footer class="footer">
       <p class="col-12">
         Комитет финансов администрации муниципального образования «Выборгский

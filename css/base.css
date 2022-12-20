@@ -2,11 +2,11 @@
 (0-O) (v-v) (o-O) (I-I) (J-J) (X_X) (<->) \_|_/ (\__/) \_(o-o)_/ (8_8) (х-х) (ф-ф) (ж-ж) (б-б) (O.O) (-.-) (_._) (0~0) (o ~ o) (+_+) (9-9) (S_S) (#-#) (/__\) (&-&)
 (@-@) (?.?) ('.') ('0') (U-U) (=.=) (='X'=) (^-^) */
 body {
-  font-family: "Poppins", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   color: black;
   font-size: 20px;
   font-weight: 400;
-  min-width: 560px;
+  /* min-width: 560px; */
 }
 .logo {
   width: 50px;
