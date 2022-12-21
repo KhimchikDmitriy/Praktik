@@ -8,6 +8,10 @@ body {
   font-weight: 400;
   min-width: 560px;
 }
+.img {
+  max-width: 100%;
+}
+
 .logo {
   width: 50px;
   height: 47px;
@@ -20,6 +24,7 @@ body {
   display: flex;
   justify-content: center;
   min-height: 780px;
+  column-gap: 60px;
 }
 .cartochkii {
   min-height: 520px;
