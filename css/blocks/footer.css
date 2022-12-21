@@ -1,4 +1,11 @@
 .footer {
+  margin-top: 12vh;
   background-color: rgb(100, 100, 100);
   min-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  /* flex: 0 0 auto; */
+}
+.text__footer {
+  margin: 50px;
 }

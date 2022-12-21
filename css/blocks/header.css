@@ -1,7 +1,7 @@
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   width: 100%;
   background-color: rgb(68, 68, 255);
 }
@@ -18,9 +18,9 @@
 }
 .header__spisok {
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  /* column-gap: 38px; */
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 38px;
   font-size: 16px;
   /* line-height: 24px; */
   /* height: 24px; */

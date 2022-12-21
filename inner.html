@@ -28,77 +28,71 @@
     <title>Practic</title>
   </head>
   <body>
-    <header class="header">
-      <div class="col-12">
-        <nav class="navbar navbar-expand-sm">
-          <div class="container-fluid">
-            <div>
+    <header class="header justify-content-end">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div>
+            <ul class="header__spisok" style="margin-left: -70%">
+              <li class="header__li">
+                <a
+                  href="./index.html"
+                  class="header__ssilka logo header__logo-wrapper"
+                  ><img
+                    class="logo"
+                    src="./images/vbg.jpg"
+                    alt="Комитет финансов"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Переключатель навигации"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
               <ul class="header__spisok">
                 <li class="header__li">
-                  <a
-                    href="./index.html"
-                    class="header__ssilka logo header__logo-wrapper"
+                  <a href="./index.html" class="btn header__ssilka">Главная</a>
+                </li>
+                <li class="header__li">
+                  <a href="./comitet.html" class="btn header__ssilka"
+                    >О комитете</a
+                  >
+                </li>
+                <li class="header__li">
+                  <a href="./deyat.html" class="btn header__ssilka"
+                    >Деятельность</a
+                  >
+                </li>
+                <li class="header__li">
+                  <a href="./doc.html" class="btn header__ssilka">Документы</a>
+                </li>
+                <li class="header__li">
+                  <a href="./contact.html" class="btn header__ssilka"
+                    >Контакты</a
+                  >
+                </li>
+                <li class="header__li">
+                  <a href="./registr.html" class="header__ssilka logo"
                     ><img
                       class="logo"
-                      src="./images/vbg.jpg"
-                      alt="Комитет финансов"
+                      src="./images/logo.png"
+                      alt="Авторизация"
                   /></a>
                 </li>
               </ul>
             </div>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Переключатель навигации"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <ul class="header__spisok">
-                  <li class="header__li">
-                    <a href="./index.html" class="btn header__ssilka"
-                      >Главная</a
-                    >
-                  </li>
-                  <li class="header__li">
-                    <a href="./comitet.html" class="btn header__ssilka"
-                      >О комитете</a
-                    >
-                  </li>
-                  <li class="header__li">
-                    <a href="./deyat.html" class="btn header__ssilka"
-                      >Деятельность</a
-                    >
-                  </li>
-                  <li class="header__li">
-                    <a href="./doc.html" class="btn header__ssilka"
-                      >Документы</a
-                    >
-                  </li>
-                  <li class="header__li">
-                    <a href="./contact.html" class="btn header__ssilka"
-                      >Контакты</a
-                    >
-                  </li>
-                  <li class="header__li">
-                    <a href="./registr.html" class="header__ssilka logo"
-                      ><img
-                        class="logo"
-                        src="./images/logo.png"
-                        alt="Авторизация"
-                    /></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
     <nav class="pad" aria-label="breadcrumb">
       <ol class="breadcrumb">
@@ -145,11 +139,11 @@
       </div>
     </form>
     <footer class="footer">
-      <p class="col-12">
+      <p class="text__footer">
         Комитет финансов администрации муниципального образования «Выборгский
         район» Ленинградской области
       </p>
-      <div class="">
+      <div class="text__footer">
         <a href="./index.html" class="header__ssilka logo"
           ><img class="logo" src="./images/vbg.jpg" alt="Госуслуги"
         /></a>

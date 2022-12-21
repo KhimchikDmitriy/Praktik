@@ -6,7 +6,7 @@ body {
   color: black;
   font-size: 20px;
   font-weight: 400;
-  /* min-width: 560px; */
+  min-width: 560px;
 }
 .logo {
   width: 50px;
